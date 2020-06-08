@@ -6,7 +6,7 @@ metadata:
    labels:
       app: at-k8
 spec:
-   seletor:
+   selector:
       matchLabels:
          app: at-k8 
    replicas: 2   
