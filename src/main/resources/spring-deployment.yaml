@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
    name: test-deployments
    labels:
-      app: test-kubernate
+      app: at-k8
 spec:
    seletor:
       matchLabels:
