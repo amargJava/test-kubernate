@@ -18,6 +18,6 @@ spec:
          containers:
          - name: at-k8
            image: test-k8  
-           posts:
+           ports:
               -containerPort: 80                                                          
    
