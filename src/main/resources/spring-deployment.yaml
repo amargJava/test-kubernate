@@ -19,5 +19,5 @@ spec:
          - name: at-k8
            image: test-k8  
            ports:
-              -containerPort: 80                                                          
+           - containerPort: 80                                                          
    
