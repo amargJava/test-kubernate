@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+   name: test-deployments
+   labels:
+      app: test-kubernate
+spec:
+   seletor:
+      matchLabels:
+         app: at-k8 
+   replicas: 2   
+   template:
+      metadata:
+         labels:
+            app: at-k8
+      spec:
+         containers:
+         - name: at-k8
+           image: test-k8  
+           posts:
+              -containerPort: 80                                                          
+   
